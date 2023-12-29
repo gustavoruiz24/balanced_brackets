@@ -1,5 +1,5 @@
-# Balanced Brackets
-I made 3 algorithms, 2 of them solve the balanced brackets problem and the last one take the position of the bracket "partner".
+# Balanced Brackets With No Stack
+I made 3 algorithms, 2 of them solve the balanced brackets problem with no stack and the last one take the position of the "partner" bracket.
 
 I used 6 exemples to test them:
  - Balanced: "(()()()())", "(((())))", "(()((())()))".
