@@ -13,11 +13,7 @@ pub fn is_balanced_1(expression: &str) -> bool {
         }
     }
 
-    if balance != 0 {
-        false
-    } else {
-        true
-    }
+    balance == 0
 }
 
 pub fn is_balanced_2(expression: &str) -> bool {
@@ -35,11 +31,7 @@ pub fn is_balanced_2(expression: &str) -> bool {
         }
     }
 
-    if balance != 0 {
-        false
-    } else {
-        true
-    }
+    balance == 0
 }
 
 pub fn bracket_partner(expression: &str, pos: usize) -> Option<usize> {
@@ -86,6 +78,8 @@ mod tests {
 
     #[test]
     fn is_balanced_2_test() {
+        assert_eq!(is_balanced_2("(()()()())"), true);
+        assert_eq!(is_balanced_2("((((((())"), false);
         assert_eq!(is_balanced_2("(a(aw)gted()(fes)(se))th"), true);
         assert_eq!(is_balanced_2("(grd((yhtf()aw)es))"), true);
         assert_eq!(is_balanced_2("((g)(grd(es())th()aw))"), true);
