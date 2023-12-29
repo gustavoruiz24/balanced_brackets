@@ -33,3 +33,6 @@ Here are some examples:
 - The partner of the index 10 in "(()((())()))" is 3
 - The partner of the index 5 in "((((((())" is 8
 - The partner of the index 2 in "()))" is None
+
+## Extra
+With these algorithms things like ")(" will return false if you are verifying if is balanced and return None if you are trying to find the partner.
