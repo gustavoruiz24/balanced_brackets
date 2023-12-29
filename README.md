@@ -37,3 +37,6 @@ Here are some examples:
 ## Extra
 With these algorithms things like ")(" will return false if you are verifying if is balanced and return None if you are trying to find the partner.
 It can be changed to the ones that verify if is balanced by removing the negative balance verification.
+
+## Restriction
+No adaptation of the first or the second one works for more than one type of bracket, so they will consider the expression "[(])" as balanced.
