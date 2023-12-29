@@ -5,7 +5,7 @@ I used 6 exemples to test them:
  - Balanced: "(()()()())", "(((())))", "(()((())()))".
  - Not balanced: "((((((())", "()))", "(()()(()".
 
-## Concept applyed to all
+## Concept applied to all
 In these algorithms there is a balance that must have the value equals 0. If it is different from 0, there is too much "(" or ")".
 From this concept "(" makes the balance more positive and ")" makes the balance more negative. If they have the same quantity it will end neutral.
 
