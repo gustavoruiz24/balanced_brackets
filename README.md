@@ -11,7 +11,7 @@ From this concept "(" makes the balance more positive and ")" makes the balance 
 
 ## The first one
 In the "is_balanced_1" the algorithm will verify if the characther equals "(", anything different from this, ")" is the target, makes the balance more negative.
-It will return wrong results is receive a expression with values besides "(" and ")".
+It will return wrong results if receive a expression with values besides "(" and ")".
 
 Here are some examples:
 - "(()((())()))" => true
